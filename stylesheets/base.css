@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ffd;
+    background-image: url("../resources/nergiWallpaper.jpg");
+    backdrop-filter: blur(5px);
+    min-height: 99vh;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+    backdrop-filter: blur(4px);
+}
+
