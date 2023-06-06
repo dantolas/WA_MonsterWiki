@@ -1,6 +1,6 @@
 Samuel Kuta C3b
 
-**[Monster Wiki](https://dantolas.github.io/WA_MonsterWiki/views/backup.html)
+[Monster Wiki](https://dantolas.github.io/WA_MonsterWiki/views/backup.html)
 
 The function of the webpage is to provide a more modern look and feel to the wiki pages for Monster Hunter game franchise.
 As a fan of the games that spent a lot of time on the game's wiki pages, I always felt they could use a visual improvement, so I tried 
