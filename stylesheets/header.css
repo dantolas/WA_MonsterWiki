@@ -1,11 +1,13 @@
 header{
     display: flex;
     flex-direction: row;
-    background-color: aliceblue;
+    background-color: rgb(255, 245, 238);
     height: fit-content;
     width: 80%;
     margin: 0 auto;
     margin-top: 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(240, 128, 0); 
 }
 
 header img{
@@ -27,7 +29,7 @@ header img{
 }
 
 .navItem :hover{
-    box-shadow: inset 0px -11px 0px 0px rgba(0,0,0,0.88);
+    box-shadow: inset 0px -11px 0px 0px rgba(240, 128, 0, 0.92); 
 }
 
 .navItem{

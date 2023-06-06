@@ -1,0 +1,53 @@
+#monsterCards{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: rgb(255, 245, 238);
+    border-radius: 5px;
+}
+
+.monsterCardsSection h1{
+    padding: 10px;
+    margin-left: 12px;
+}
+
+.monsterCardsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;    
+}
+
+.monsterCard{
+
+    width: 400px;
+    height: 280px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+
+
+    border-radius: 9px;
+    border: 1px solid rgba(240, 128, 0, 0.92);
+    margin-top: 7px;
+    margin: 4px;
+}
+
+.monsterCard:hover{
+    opacity: 0.77;
+    transition: .2s;
+    transform: scale(1.02);
+}
+
+.monsterImage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+
+}
+
+.monsterName{
+    text-align: center;
+}
