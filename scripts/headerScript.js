@@ -2,9 +2,11 @@ let homeNav = document.querySelector("#homeNav");
 let monstersNav = document.querySelector("#monstersNav");
 let aboutNav = document.querySelector("#aboutNav");
 
-if(sessionStorage.getItem("page") != null){
-   switchUnderlinedNav();
+if(sessionStorage.getItem("page") == null){
+    sessionStorage.setItem("page","homeNav");
 }
+
+switchUnderlinedNav();
 
 
 
