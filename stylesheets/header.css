@@ -51,6 +51,7 @@ header img{
     height: 50%;
     text-align: center;
     text-decoration: none;
+    color: inherit;
     padding:5px;
 }
 
