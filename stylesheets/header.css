@@ -8,6 +8,7 @@ header{
     margin-top: 10px;
     border-radius: 5px;
     border: 2px solid rgb(240, 128, 0); 
+    flex-wrap: wrap;
 }
 
 header img{
@@ -51,4 +52,43 @@ header img{
     text-align: center;
     text-decoration: none;
     padding:5px;
+}
+
+
+@media screen and (max-width: 440px) {
+
+    *{
+        overflow-x: hidden;
+    }
+
+    header {
+
+        overflow-x: scroll;
+        flex-direction: column;
+        padding: 1px;
+    }
+
+    #nav{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+
+    #headerTitle{
+        align-self:flex-start;
+    }
+    .navItem :hover{
+        box-shadow: inset 0px -7px 0px 0px rgba(240, 128, 0, 0.92); 
+    }
+
+    .navItem.active a{
+
+        box-shadow: inset 0px -7px 0px 0px rgba(240, 120, 0, 0.72); 
+    }
+
+    header img{
+        visibility: hidden;
+    }
+
 }
