@@ -1,0 +1,8 @@
+main{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: rgb(255, 245, 238);
+    padding: 6px;
+    border-radius: 5px;
+}

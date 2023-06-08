@@ -27,6 +27,12 @@
 
 }
 
+#homeText p{
+
+    font-weight: 400;
+    font-size: 17px;
+}
+
 #textCardsContainer{
     display: flex;
     flex-direction: row;

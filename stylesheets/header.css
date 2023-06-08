@@ -32,6 +32,11 @@ header img{
     box-shadow: inset 0px -11px 0px 0px rgba(240, 128, 0, 0.92); 
 }
 
+.navItem.active a{
+
+    box-shadow: inset 0px -11px 0px 0px rgba(240, 120, 0, 0.72); 
+}
+
 .navItem{
     padding: 3px;
     height: 100%;
