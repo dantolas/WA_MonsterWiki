@@ -13,6 +13,7 @@ html{
     margin: 0;
     padding: 0;
     backdrop-filter: blur(4px);
+    scroll-behavior: smooth;
 }
 
 *{

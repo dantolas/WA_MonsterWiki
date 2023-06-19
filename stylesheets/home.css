@@ -1,4 +1,8 @@
 
+main{
+    margin-bottom: 50px;
+}
+
 #introDiv{
     width: 80%;
     margin: 0 auto;
@@ -113,7 +117,8 @@
 
     width: 80%;
     margin: 0 auto;
-    margin-top: 10px;
+    margin-top: 2px;
+    border-top:1px solid #000;
     background-color: rgb(255, 245, 238);
     border-radius: 5px;
 
@@ -126,6 +131,7 @@
 #GalleryTitle{
     text-align: center;
     padding-top: 10px;
+    padding-bottom: 5px;
 }
 
 #GalleryTitle{
