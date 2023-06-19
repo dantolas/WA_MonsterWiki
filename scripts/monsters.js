@@ -12,3 +12,12 @@ cards.forEach(card =>{
         }
     })
 })
+
+
+let monsters = [];
+readMonstersToArray(monsters);
+
+function readMonstersToArray(array){
+    const jsonString = "";
+    console.log(jsonString);
+}

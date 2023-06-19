@@ -35,8 +35,29 @@
     <main>
         <div id="monsterCards">
             <div class="monsterCardsSection">
-                <h1>Monsters</h1>
-                <hr>
+                <div class="sortingContainer">
+                    <ul>
+                        <li>
+                            <a href="#">Sort ↓</a>
+                            <ul>
+                                <li><a href="#" id="alphSort">Alphabetically</a></li>
+                                <li><a href="#" id="categSort">Categorically</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Order ↓</a>
+                            <ul>
+                                <li><a href="#" id="ascending">Ascending</a></li>
+                                <li><a href="#" id="descending">Descending</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="categoryContainer">
+                    <h1 class="categoryName">Monsters</h1>
+                    <hr>    
+                </div>
+                
                 <div class="monsterCardsContainer">
                     <div class="monsterCard" >
                         <img class="monsterImage" src="../resources/monsters/cardDesigns/rathalos.jpeg" alt="cardImg">
