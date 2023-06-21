@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../stylesheets/header.css">
     <link rel="stylesheet" href="../stylesheets/home.css">
     <link rel="stylesheet" href="../stylesheets/monsters.css">
+    <link rel="stylesheet" href="../stylesheets/footer.css">
 
     <script src="../scripts/headerScript.js" defer></script>
     <script src="../scripts/monsters.js" defer></script>
@@ -35,8 +36,29 @@
     <main>
         <div id="monsterCards">
             <div class="monsterCardsSection">
-                <h1>Monsters</h1>
-                <hr>
+                <div class="sortingContainer">
+                    <ul>
+                        <li>
+                            <a href="#">Sort ↓</a>
+                            <ul>
+                                <li><a href="#" id="alphSort">Alphabetically</a></li>
+                                <li><a href="#" id="categSort">Categorically</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Order ↓</a>
+                            <ul>
+                                <li><a href="#" id="ascending">Ascending</a></li>
+                                <li><a href="#" id="descending">Descending</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="categoryContainer">
+                    <h1 class="categoryName">Monsters</h1>
+                    <hr>    
+                </div>
+                
                 <div class="monsterCardsContainer">
                     <div class="monsterCard" >
                         <img class="monsterImage" src="../resources/monsters/cardDesigns/rathalos.jpeg" alt="cardImg">
@@ -73,5 +95,38 @@
             </div>
         </div>
     </main>
+
+    <footer id="footer">
+        <div id="footerLinks">
+            <a href="#top"><img src="../resources/up-arrow.png" alt=""></a>
+            <a href="https://www.instagram.com/samec_kuta/"><img src="../resources/instagram.png" alt="insta"></a>
+            <a href="https://github.com/dantolas/WA_MonsterWiki">
+
+            <img src="../resources/github.png" alt="github">
+            </a>
+
+
+
+        </div>
+        <div id="footerText">
+            <div class="infoContainer">
+                <img src="../resources/user.png" alt="personIcon">
+                <p>©Kuta Samuel C3b</p>
+            </div>
+            <div class="infoContainer">
+                <img src="../resources/mail.png" alt="personIcon">
+                <p>kuta.samuel@gmail.com</p>
+            </div>
+            <div class="infoContainer">
+                <img src="../resources/smartphone.png" alt="personIcon">
+                <p>+420 123 456 789</p>
+            </div>
+        </div>
+        <div id="footerLogo">
+            <a href="index.html">
+                <img src="../resources/icon.png">
+            </a>
+        </div>
+    </footer>
 </body>
 </html>

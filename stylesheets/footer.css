@@ -1,4 +1,120 @@
 footer{
-    display: flex;
 
+
+    box-shadow: inset 0px 7px 1px 6px rgba(141, 145, 150, 0.35);
+    background-color: #71797E;
+    height: 170px;
+    width: 100%;
+    display: flex;
+    overflow: scroll;
+
+    position: relative;
+
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+}
+
+
+#footerText{
+    background-color: #818589;
+    border-radius: 8px;
+    background-color: rgb(255, 245, 238);
+    box-shadow: 1px 0px 6px 6px rgba(129,133,137,0.35);
+    display: flex;
+    border: solid 2px rgba(240, 128, 0, 0.92) ;
+}
+
+#footerText div{
+    width: 150px;
+    height: 130px;
+    display: flex;
+    position: relative;
+}
+
+#footerText div:hover > img{
+    transform: translate(0px, 33px);
+}
+
+#footerText div:hover > p{
+    display: initial;
+}
+
+#footerText div img{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    transition: 0.3s;
+    position: absolute;
+    bottom: 1;
+}
+
+#footerText div p{
+    word-wrap: break-word;
+    border-radius: 5px;
+
+    display: none;
+    box-shadow: inset 0px -3px 0px 0px rgba(240, 128, 0, 0.92); 
+    text-align: center;
+    vertical-align: middle;
+    font-size: 18px;
+    padding-bottom: 2px;
+    position: absolute;
+    z-index: 50;
+    top: 0;
+}
+
+#footerLinks {
+
+    padding: 15px 15px;
+    background-color: inherit;
+}
+
+#footerLinks img{
+    object-fit: contain;
+    width: 50px;
+    height: 50px;
+    padding: 10px 10px;
+}
+
+#footerLinks a:hover{
+    opacity: 0.92;
+    
+    box-shadow: inset 0px -4px 0px 0px rgba(240, 128, 0, 0.92); 
+}
+
+
+#footerLogo{
+    width: 150px;
+    height: 150px;
+    padding-left: 20px;
+}
+
+#footerLogo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.infoContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.infoContainer p{
+    overflow: hidden;
+    text-align: center;
+}
+
+.infoContainer img{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
 }

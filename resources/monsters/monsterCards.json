@@ -1,0 +1,52 @@
+[
+    
+    {
+        "name":"Rathalos",
+        "image":"../resources/monsters/cardDesigns/rathalos.jpeg",
+        "category":"flying wyvern",
+        "link":"https://monsterhunter.fandom.com/wiki/Rathalos"
+    },
+    {
+        "name":"Great Jagras",
+        "image":"../resources/monsters/cardDesigns/greatJagras.jpg",
+        "category":"fanged wyvern",
+        "link":"https://monsterhunter.fandom.com/wiki/Great_Jagras"
+    },
+    {
+        "name":"Deviljho",
+        "image":"../resources/monsters/cardDesigns/deviljho.jpg",
+        "category":"brute wyvern",
+        "link":"https://monsterhunter.fandom.com/Deviljho"
+    },
+    {
+        "name":"Diablos",
+        "image":"../resources/monsters/cardDesigns/diablo.jpg",
+        "category":"flying wyvern",
+        "link":"https://monsterhunter.fandom.com/wiki/Diablos"
+    },
+    {
+        "name":"Tigrex",
+        "image":"../resources/monsters/cardDesigns/tigrex.jpeg",
+        "category":"fanged wyvern",
+        "link":"https://monsterhunter.fandom.com/wiki/Tigrex"
+    },
+    {
+        "name":"Anjanath",
+        "image":"../resources/monsters/cardDesigns/anjanath.jpeg",
+        "category":"beast wyvern",
+        "link":"https://monsterhunter.fandom.com/wiki/Great_Jagras"
+    },
+    {
+        "name":"Rajang",
+        "image":"../resources/monsters/cardDesigns/rajang.jpeg",
+        "category":"fanged beast",
+        "link":"https://monsterhunter.fandom.com/wiki/Great_Jagras"
+    },
+    {
+        "name":"Banbaro",
+        "image":"../resources/monsters/cardDesigns/banbaro.jpg",
+        "category":"fanged wyvern",
+        "link":"https://monsterhunter.fandom.com/wiki/Great_Jagras"
+    }
+
+]
