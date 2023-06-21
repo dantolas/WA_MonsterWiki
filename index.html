@@ -7,6 +7,9 @@
 
     <link rel="stylesheet" href="login.css">
 
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="scripts/login.js" defer></script>
+
 </head>
 <body>
     <div class="wrapper">
@@ -25,13 +28,13 @@
             <div class="form-inner">
                 <form action="#" class="login">
                     <div class="field">
-                        <input type="text" placeholder="Username / Email" required>
+                        <input type="text" placeholder="Username / Email" id="username">
                     </div>
                     <div class="field">
-                        <input type="text" placeholder="Password" required>
+                        <input type="text" placeholder="Password" id="password" required>
                     </div>
                     <div class="field">
-                        <input type="submit" value="Login">
+                        <input type="submit" value="Login" id="loginButton">
                     </div>
                     <div class="signup-link">Not a member?<a href="#"> Sign-up here.</a></div>
                 </form>
@@ -49,7 +52,7 @@
                         <input type="text" placeholder="Confirm Password" required>
                     </div>
                     <div class="field">
-                        <input type="submit" value="Register">
+                        <input type="submit" value="Register" id="submitButton">
                     </div>
                 </form>
             </div>
